@@ -1,0 +1,29 @@
+﻿Build started 17-May-18 11:36:21 AM.
+     1>Project "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\Cuda Subreact\Cuda Subreact.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" /I. /FIcuda_runtime.h /c "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\Cuda Subreact\kernel.cu" 
+     1>Project "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\Cuda Subreact\Cuda Subreact.vcxproj" (1) is building "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\Cuda Subreact\Cuda Subreact.vcxproj" (1:2) on node 2 (CudaBuildCore target(s)).
+     1>CudaBuildCore:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\ashiq\AppData\Local\Temp\tmp34b124b078364a4da5d1ec92d8cb9f1a.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\Cuda Subreact\kernel.cu"
+         
+         F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\Cuda Subreact>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\Cuda Subreact\kernel.cu" 
+         kernel.cu
+     1>Done Building Project "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\Cuda Subreact\Cuda Subreact.vcxproj" (CudaBuildCore target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\x64\Debug\Cuda Subreact.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\x64\Debug\Cuda Subreact.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\x64\Debug\Cuda Subreact.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+         Cuda Subreact.vcxproj -> F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\x64\Debug\Cuda Subreact.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+                 2 file(s) copied.
+     1>Done Building Project "F:\Educational Materials\Coding\CUDA C+\Cuda 2d Subreact\Cuda Subreact\Cuda Subreact.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.89

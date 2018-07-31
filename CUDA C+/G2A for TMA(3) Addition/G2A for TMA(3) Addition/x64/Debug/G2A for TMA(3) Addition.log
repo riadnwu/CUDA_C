@@ -1,0 +1,13 @@
+﻿Build started 17-May-18 11:32:03 AM.
+     1>Project "F:\Educational Materials\Coding\CUDA C+\G2A for TMA(3) Addition\G2A for TMA(3) Addition\G2A for TMA(3) Addition.vcxproj" on node 2 (Clean target(s)).
+     1>CudaClean:
+         cmd.exe /C "C:\Users\ashiq\AppData\Local\Temp\tmpd29796d35c534f0fa465b76ff1bc43db.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "F:\Educational Materials\Coding\CUDA C+\G2A for TMA(3) Addition\G2A for TMA(3) Addition\kernel.cu" -clean
+         
+         F:\Educational Materials\Coding\CUDA C+\G2A for TMA(3) Addition\G2A for TMA(3) Addition>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "F:\Educational Materials\Coding\CUDA C+\G2A for TMA(3) Addition\G2A for TMA(3) Addition\kernel.cu" -clean 
+         kernel.cu
+     1>Done Building Project "F:\Educational Materials\Coding\CUDA C+\G2A for TMA(3) Addition\G2A for TMA(3) Addition\G2A for TMA(3) Addition.vcxproj" (Clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.70
